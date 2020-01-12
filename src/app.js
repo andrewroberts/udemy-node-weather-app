@@ -101,7 +101,7 @@ app.get('/weather', (req, res) => {
 
             const forcast = 
                 summary + 'Temperature is ' + temperature + ' ' + 
-                    'degrees, and ' + precipitation + '% chance of rain'
+                    'degrees, and ' + precipitation + '% chance of rain.'
 
             res.send({
                 forcast: forcast,
